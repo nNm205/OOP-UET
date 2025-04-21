@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Movable {
+public interface Movable {
+    public void move(int distance);
 }

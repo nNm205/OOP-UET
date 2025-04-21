@@ -1,4 +1,5 @@
 package DesignPatterns.FactoryMethod;
 
-public class VehicleFactory {
+public abstract class VehicleFactory {
+    public abstract Vehicle startVehicle();
 }

@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Habitable {
+public interface Habitable {
+    public boolean canFit(int inhabitants);
 }

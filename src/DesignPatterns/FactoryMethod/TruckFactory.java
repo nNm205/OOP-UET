@@ -1,4 +1,8 @@
 package DesignPatterns.FactoryMethod;
 
-public class TruckFactory {
+public class TruckFactory extends VehicleFactory {
+    @Override
+    public Vehicle startVehicle() {
+        return new Truck();
+    }
 }

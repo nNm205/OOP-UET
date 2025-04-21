@@ -1,4 +1,6 @@
-package DesignPatterns;
+package DesignPatterns.FactoryMethod;
 
-public class Vehicle {
+public interface Vehicle {
+    void start();
+    void move();
 }

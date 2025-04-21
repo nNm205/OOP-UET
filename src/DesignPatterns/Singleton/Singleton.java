@@ -1,4 +1,4 @@
-package DesignPatterns;
+package DesignPatterns.Singleton;
 
 public final class Singleton {
     private static final Singleton instance = new Singleton();
